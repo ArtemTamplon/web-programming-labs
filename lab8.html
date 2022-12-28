@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Тамплон Артемий. ФБИ-02. Лабораторная работа 8</title>
+        <link rel="stylesheet" href="lab8.css" type="text/css">
+        <script src="lab8.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            Тамплон Артемий
+            <div id="time">0:00:00</div>
+        </div>
+        <div class="content">
+            <div class="today">Сегодня: <span id="today"></span></div>
+        <div class="date">
+            Моя дата рождения: <input type="date">
+        </div>
+        <div class="button">
+            <button onclick="showDaysCount()">Рассчитать сколько дней прошло</button>
+        </div>
+        <div id="result"></div>
+            <div class="days">
+                Введите количество дней <input type="number">
+            </div>
+        <div>
+            <button onclick="showroundDate()">Рассчитать</button>
+        </div>
+        <div id="resdays"></div>
+    </div>
+        <div class="footer">
+            Факультет бизнеса, ФБИ-02, 3 курс, 2022
+        </div>
+    </body>
+</html>
